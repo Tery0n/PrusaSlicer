@@ -42,7 +42,7 @@ cd build
 cmake .. -DCMAKE_PREFIX_PATH="../deps/build/destdir/usr/local"
 cmake --build .
 ```
-If you encounter any errors on Linux, use the absolute path:
+If you encounter any errors on Linux use the absolute path:
 ```bash
 cmake .. -DCMAKE_PREFIX_PATH="$(realpath ../deps/build/destdir/usr/local)"
 ```
